@@ -19,7 +19,7 @@ Analizar sistemas dinámicos aleatorios de forma cualitativa y cuantitativa
 
 ## Instrucciones 
 
-- Consulta [Hoel, et. al. (1986)], capítulos 1 y 2
+- Consulta [Taha], capítulos 14 y 17
 - Redacta tus respuestas en formato Markdown.
 - Puedes utilizar Python para resolver los problemas. 
 - Si utilizas Python, utiliza la sintaxis de Markdown para Python.
@@ -29,85 +29,77 @@ Analizar sistemas dinámicos aleatorios de forma cualitativa y cuantitativa
 
 ## Problemas
 
-### Problema 1 (1.5 puntos)
+### Problema 1 (5 puntos)
 
-Considere la cadena de Markov con espacio de estados $\{0,1,2\}$ y matriz de transición
-$$
-T = \begin{bmatrix}
-0.4 & 0.4 & 0.2 \\
-0.3 & 0.4 & 0.3 \\
-0.2 & 0.4 & 0.4
-\end{bmatrix}
-$$
-donde la probabilidad de transición $P(x,y)$ de pasar del estado $x$ al estado $y$ está dado por $T_{x,y}$. 
+María von Savant es conocida por haber resuelto un problema de probabilidad en la columna "Ask Marilyn" de la revista Parade en 1990. El problema se llamaba "El problema de Monty Hall", y se basaba en un juego de televisión llamado "Let's Make a Deal" en el que un concursante debe elegir una de tres puertas, detrás de una de las cuales hay un premio, mientras que las otras dos puertas esconden algo sin valor. Después de que el concursante elija una puerta, el presentador, Monty Hall, que sabe qué hay detrás de cada puerta, abrirá una de las dos puertas restantes que no ha sido elegida por el concursante, revelando que no hay un premio detrás de ella. Luego, Monty le ofrece al concursante la oportunidad de cambiar su elección original por la otra puerta restante.
 
-Muestre que esta cadena tiene una distribución estacionaria $\pi$ única y encuentre $\pi$.
+El problema se preguntaba si era mejor para el concursante cambiar su elección original después de que Monty abriera una puerta sin premio. Muchas personas intuitivamente creen que no importa si cambian o no, y que tienen una probabilidad del 50% de ganar el premio independientemente de lo que hagan. Sin embargo, Maria von Savant argumentó que cambiar de puerta duplica las posibilidades de ganar, y que la probabilidad de ganar si se cambia de puerta es del 2/3, mientras que si se mantiene la elección original, la probabilidad de ganar es del 1/3.
+
+La respuesta de von Savant causó controversia en ese momento, y algunos matemáticos y estadísticos se opusieron a ella, argumentando que estaba equivocada. Sin embargo, con el tiempo se ha demostrado que su respuesta es correcta y que el cambio de puerta en realidad aumenta las posibilidades de ganar el premio.
+
+La respuesta de von Savant al problema de Monty Hall puede ser demostrada mediante el uso de la teoría de probabilidad y la ley de Bayes. A continuación se presenta una explicación de cómo se puede llegar a la conclusión de que cambiar de puerta aumenta las posibilidades de ganar el premio:
+
+Primero, es importante reconocer que hay tres posibles puertas que el concursante puede elegir, y solo una de ellas contiene el premio. Por lo tanto, la probabilidad inicial de ganar el premio es del 1/3.
+
+Después de que el concursante hace su elección inicial, el presentador Monty Hall abre una de las dos puertas restantes que no tienen el premio detrás. Esto no cambia la probabilidad de que la puerta elegida por el concursante contenga el premio, que sigue siendo del 1/3.
+
+Sin embargo, el hecho de que Monty abra una de las dos puertas restantes proporciona información adicional al concursante. En particular, revela que una de las puertas restantes no tiene el premio detrás. Como resultado, la probabilidad de que la puerta no elegida por el concursante contenga el premio se convierte en 2/3, ya que solo hay dos posibles puertas que no han sido elegidas.
+
+Por lo tanto, si el concursante cambia de puerta después de que Monty haya abierto una de las dos puertas restantes, la probabilidad de ganar el premio aumenta a 2/3. Si el concursante decide quedarse con su elección original, la probabilidad de ganar sigue siendo del 1/3.
+
+En resumen, la respuesta de von Savant es correcta porque si el concursante cambia de puerta después de que Monty abra una de las dos puertas restantes, la probabilidad de ganar el premio aumenta del 1/3 inicial a 2/3. Esta conclusión se puede demostrar matemáticamente utilizando la teoría de probabilidad y la ley de Bayes.
+
+A continuación, diseñarás un experimento numérico que verifique el resultado anterior. 
+
+1. Escribe una función para similar un juego de Monty Hall que realice las siguientes instrucciones:
+
+   1.   Crea un lista con las tres puertas
+
+   1.   Escondemos el premio detrás de una de las puertas de manera aleatoria    
+
+   1.   Monty abre una puerta que no tiene el premio ni ha sido elegida por el concursante
+
+   1.   Si el concursante cambia de puerta, elegimos la puerta que no ha sido elegida y que no ha sido abierta por Monty
+
+   1.   Si el concursante cambia de puerta, elegimos la puerta que no ha sido elegida y que no ha sido abierta por Monty 
+
+   1.   Devolvemos True si el concursante ha ganado el premio, False en caso contrario 
+
+
+1.   Escribe una función para simular varios juegos de Monty Hall y calcular la probabilidad de ganar el premio
+2.   Simula 10,000 juegos de Monty Hall
+3.   Calcula la probabilidad de ganar el premio sin cambiar de puerta
+4.   Calcula la probabilidad de ganar el premio cambiando de puerta
 
 ### Problema 2
 
-Considere una cadena de Markov que tiene un espacio de estados $\{0,1,...,6\}$ y matriz de transición
-$$
-T = \begin{bmatrix}
-1/2 & 0 & 1/8 & 1/4 & 1/8 & 0 & 0 \\
-0 & 0 & 1 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 1 & 0 & 0 & 0 \\
-0 & 1 & 0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 1/2 & 0 & 1/2 \\
-0 & 0 & 0 & 0 & 1/2 & 1/2 & 0 \\
-0 & 0 & 0 & 0 & 0 & 1/2 &  1/2 \\
-\end{bmatrix}
-$$
-donde la probabilidad de transición $P(x,y)$ de pasar del estado $x$ al estado $y$ está dado por $T_{x,y}$.
+Hay tres categorías de contribuyentes de impuestos sobre la renta en los Estados Unidos: los que nunca evaden impuestos, los que a veces lo hacen y los que siempre lo hacen.
 
-#### Inciso 2.1(1.5 puntos)
+Un examen de las declaraciones de impuestos auditadas de un año al siguiente muestra que de aquellos que no evadieron impuestos el año pasado, el 95% continúa en la misma categoría este año, el 4% pasa a la categoría "a veces" y el resto se mueve a la categoría "siempre".
 
-Determine cuales estados son de transición y cuales son recurrentes
+Para aquellos que a veces evaden impuestos, el 6% pasa a "nunca", el 90% permanece igual y el 4% pasa a "siempre". En cuanto a los evasores “siempre”, los porcentajes respectivos son 0%, 10% y 90%.
 
-#### Inciso 2.2(1.5 puntos)
+### Inciso A (2 puntos)
 
-Encuentre $\rho_{0,y}$ para $y=0,...,6$, donde $\rho_{x,y}$ es la probabilidad de que una cadena que comienza en $x$ visite alguna vez $y$.
+Expresa el problema en términos de una cadena de Markov, justificando detalladamente la elección de tu modelo. 
 
-#### Inciso 2.3(1.5 puntos)
+### Inciso B (2 puntos)
 
-Encuentre la distribución estacionaria concentrada en cada uno de los conjuntos cerrados irreducibles. 
+Calcula la distribución estacionaria utilizando eigenvectores. 
 
-#### Inciso 2.4(1.5 puntos)
+### Inciso C (2 puntos)
 
-Encuentra $\lim_{n\to\infty} G_n(x,y)/n$, donde $G(x,y)$ es el número esperado de visitas a $y$ para  una cadena que comienza en $x$.
+Calcula la distribución estacionaria, de forma numérica, iterando la matriz de transición.
 
-### Problema 3
+### Inciso D (2 puntos)
 
-Sea $X_{n}, n\geq 0$, la cadena de Ehrenfest con $d=4$ y $X_0=0$.
+Verifica que ambos resultados coincidan y explica este resultado en términos de nuestro problema de impuestos.
 
-#### Inciso 3.1(1.5 puntos)
+### Inciso E (2 puntos)
 
-Encuentre la distribución aproximada de $X_n$ para $n$ muy grande y  par.
+ Las estadísticas muestran que un contribuyente en la categoría "a veces" evade impuestos aproximadamente $\$5000$ por declaración y en la categoría "siempre" sobre alrededor de $\$12,000. $Suponiendo que la población de contribuyentes es de 70 millones y que la tasa de impuesto sobre la renta promedio es del 12%, determinar la reducción anual de los impuestos recaudados por evasión.
 
-#### Inciso 3.2(1.5 puntos)
 
-Encuentre la distribución aproximada de $X_n$ para $n$ muy grande e  impar.
 
-### Problema 4
 
-Considere la cadena de Markov en $\{0,1,2\}$ que tiene matriz de transición 
-$$
-\begin{bmatrix}
-0 & 0 & 1 \\
-1 & 0 & 0 \\
-\frac{1}{2} & \frac{1}{2} & 0
-\end{bmatrix}
-$$
-donde la probabilidad de transición $P(x,y)$ de pasar del estado $x$ al estado $y$ está dado por $T_{x,y}$.
-
-#### Inciso 4.1(1.5 puntos)
-
-Muestre que la cadena es irreducible.
-
-#### Inciso 4.2(1.5 puntos)
-
-Encuentre el periodo
-
-#### Inciso 4.3(1.5 puntos)
-
-Encuentre el estado estacionario
 
