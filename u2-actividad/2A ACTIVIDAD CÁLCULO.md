@@ -12,11 +12,10 @@ Analizar sistemas dinámicos lineales de forma cualitativa y cuantitativa
 
 ## Instrucciones 
 
-- Consulta [Kelley, 2013], capítulos 3 y 4.
+- Consulta [Kelley, 2013], capítulos 3, secciones 1 a 4. 
 - Redacta tus respuestas en formato Markdown.
-- Puedes utilizar Python para resolver los problemas. 
-- Si utilizas Python, utiliza la sintaxis de Markdown para Python.
-- En este caso, también adjunta el código en archivos `.py`. 
+- Puedes utilizar Python o SageMath para resolver los problemas. 
+- En este caso, utiliza una libreta Jupyter para redactar tu solución. 
 - Si la respuesta carece de justificación, no se considerará correcta.
 - Exporta y entrega tu trabajo en formato PDF.
 
@@ -137,17 +136,17 @@ $$
 
 ### Problemas adicionales
 
-- Los siguiente problemas son optativos
-- 
+#### Problema 4 
 
-#### Problema 4 (2 puntos extras)
+##### Inciso 4.1 (2 puntos extras)
 
 Encuentra una función de Liapunov para el sistema 
-
 $$
 x'=-x-y^2\\
 y'=-\dfrac{1}{2}y+2xy
 $$
+
+##### Inciso 4.2 (1 punto extra)
 
 Identifica una familia de conjuntos positivamente invariantes
 
