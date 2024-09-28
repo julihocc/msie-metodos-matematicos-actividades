@@ -49,7 +49,7 @@ $$
 - Dibuja los diagramas del plano fase para cada uno de los siguientes sistemas. 
 - Determina los puntos críticos y clasifícalos.
 
-##### Inciso 2.1 (1.5 puntos)
+##### Inciso 2.1 (2.5 puntos)
 
 $$
 \begin{bmatrix}
@@ -67,7 +67,7 @@ y
 \end{bmatrix}
 $$
 
-##### Inciso 2.2 (1.5 puntos)
+##### Inciso 2.2 (2.5 puntos)
 
 $$
 \begin{bmatrix}
@@ -85,7 +85,7 @@ y
 \end{bmatrix}
 $$
 
-##### Inciso 2.3 (1.5 puntos)
+##### Inciso 2.3 (2.5 puntos)
 
 $$
 \begin{bmatrix}
@@ -105,7 +105,7 @@ $$
 
 
 
-##### Inciso 2.4 (1.5 puntos)
+##### Inciso 2.4 (2.5 puntos)
 
 $$
 \begin{bmatrix}
@@ -123,7 +123,7 @@ y
 \end{bmatrix}
 $$
 
-#### Problema 3 (1.5 puntos)
+#### Problema 3 (2 puntos)
 
 Encuentra las constantes $\alpha$ y $\beta$ de manera que 
 $$
@@ -135,9 +135,14 @@ x' = -x-5y \\
 y' = 3x-y^3
 $$
 
-#### Problema 4 (1.5 puntos)
+### Problemas adicionales
 
-Encuentra una   función de Liapunov para el sistema 
+- Los siguiente problemas son optativos
+- 
+
+#### Problema 4 (2 puntos extras)
+
+Encuentra una función de Liapunov para el sistema 
 
 $$
 x'=-x-y^2\\
@@ -150,14 +155,14 @@ Identifica una familia de conjuntos positivamente invariantes
 
 Aplica el teorema de invarianza de LaSalle a cada uno de lo siguientes sistemas y determina que puntos son atraídos hacia el origen
 
-##### Inciso 5.1 (1.5 puntos)
+##### Inciso 5.1 (1.5 puntos extras)
 
 $$
 x' = -2x-2xy\\
 y' = 2x^2-y
 $$
 
-##### Inciso 5.2 (1.5 puntos)
+##### Inciso 5.2 (1.5 puntos extras)
 
 $$
 x' = y \\
