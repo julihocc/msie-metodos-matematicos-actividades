@@ -10,14 +10,16 @@
 
 Analizar sistemas dinámicos lineales de forma cualitativa y cuantitativa
 
-## Instrucciones 
+## Instrucciones
 
-- Consulta [Kelley, 2013], capítulos 3, secciones 1 a 4. 
-- Redacta tus respuestas en formato Markdown.
-- Puedes utilizar Python o SageMath para resolver los problemas. 
-- En este caso, utiliza una libreta Jupyter para redactar tu solución. 
-- Si la respuesta carece de justificación, no se considerará correcta.
-- Exporta y entrega tu trabajo en formato PDF.
+1. **Consulta** en la sección de aprende el recurso [Kelley, 2013], capítulos 3, secciones 1 a 4. 
+2. **Recopila** y **analiza** tu información
+3. **Descarga** el archivo[ 2A Actividad](https://github.com/julihocc/msie-metodos-matematicos-actividades/tree/main/u2-actividad) y  **redacta** tus respuestas en formato Markdown
+4. **Documenta** cada paso de tu proceso de resolución, incluyendo las ecuaciones utilizadas, los cálculos realizados y las soluciones obtenidas
+5. **Utiliza** Python o SageMath para realizar los cálculos necesarios. 
+6. **Redacta** tu trabajo en una libreta Jupyter.
+7. **Exporta y entrega** tu trabajo en formato PDF.
+8. **Considera** los [criterios de evaluación](https://aulavirtual.infotec.mx/draftfile.php/32283/user/draft/705655828/LC_2A_Actividad-Análisis de sistemas dinámicos_2024-2.pdf)
 
 ## Problemas
 
@@ -149,26 +151,6 @@ $$
 ##### Inciso 4.2 (1 punto extra)
 
 Identifica una familia de conjuntos positivamente invariantes
-
-#### Problema 5
-
-Aplica el teorema de invarianza de LaSalle a cada uno de lo siguientes sistemas y determina que puntos son atraídos hacia el origen
-
-##### Inciso 5.1 (1.5 puntos extras)
-
-$$
-x' = -2x-2xy\\
-y' = 2x^2-y
-$$
-
-##### Inciso 5.2 (1.5 puntos extras)
-
-$$
-x' = y \\
-y' = -x+y^5-2y
-$$
-
-
 
 ## Bibliografía
 
