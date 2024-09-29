@@ -19,24 +19,24 @@ Analizar sistemas dinámicos lineales de forma cualitativa y cuantitativa
 5. **Utiliza** Python o SageMath para realizar los cálculos necesarios. 
 6. **Redacta** tu trabajo en una libreta Jupyter.
 7. **Exporta y entrega** tu trabajo en formato PDF.
-8. **Considera** los [criterios de evaluación](https://aulavirtual.infotec.mx/draftfile.php/32283/user/draft/705655828/LC_2A_Actividad-Análisis de sistemas dinámicos_2024-2.pdf)
+8. **Considera** los [criterios de evaluación](https://github.com/julihocc/msie-metodos-matematicos-actividades/tree/main/u2-actividad)
 
 ## Problemas
 
-#### Problema 1.
+### Problema 1.
 
 - Para cada sistema, determina si es hamiltoniano.
 - Si es hamiltoniano, construye la función hamiltoniana paso a paso y verifica que sea tu construcción sea correcta. 
 - En otro caso, explica porque el sistema no podría ser hamiltoniano. 
 
-##### Inciso 1.1 (1.5 puntos)
+#### Inciso 1.1 (1.5 puntos)
 
 $$
 x'= e^{y}-2x \\
 y'= 2y-2x
 $$
 
-##### Inciso 1.2 (1.5 puntos)
+#### Inciso 1.2 (1.5 puntos)
 
 $$
 x'=x+y\\
@@ -45,12 +45,12 @@ $$
 
 
 
-#### Problema 2
+### Problema 2
 
 - Dibuja los diagramas del plano fase para cada uno de los siguientes sistemas. 
 - Determina los puntos críticos y clasifícalos.
 
-##### Inciso 2.1 (2.5 puntos)
+#### Inciso 2.1 (2.5 puntos)
 
 $$
 \begin{bmatrix}
@@ -68,7 +68,7 @@ y
 \end{bmatrix}
 $$
 
-##### Inciso 2.2 (2.5 puntos)
+#### Inciso 2.2 (2.5 puntos)
 
 $$
 \begin{bmatrix}
@@ -86,7 +86,7 @@ y
 \end{bmatrix}
 $$
 
-##### Inciso 2.3 (2.5 puntos)
+#### Inciso 2.3 (2.5 puntos)
 
 $$
 \begin{bmatrix}
@@ -104,9 +104,7 @@ y
 \end{bmatrix}
 $$
 
-
-
-##### Inciso 2.4 (2.5 puntos)
+#### Inciso 2.4 (2.5 puntos)
 
 $$
 \begin{bmatrix}
@@ -124,7 +122,7 @@ y
 \end{bmatrix}
 $$
 
-#### Problema 3 (2 puntos)
+### Problema 3 (2 puntos)
 
 Encuentra las constantes $\alpha$ y $\beta$ de manera que 
 $$
@@ -136,11 +134,11 @@ x' = -x-5y \\
 y' = 3x-y^3
 $$
 
-### Problemas adicionales
+## Problemas adicionales
 
-#### Problema 4 
+### Problema 4 
 
-##### Inciso 4.1 (2 puntos extras)
+#### Inciso 4.1 (2 puntos extras)
 
 Encuentra una función de Liapunov para el sistema 
 $$
@@ -148,7 +146,7 @@ x'=-x-y^2\\
 y'=-\dfrac{1}{2}y+2xy
 $$
 
-##### Inciso 4.2 (1 punto extra)
+#### Inciso 4.2 (1 punto extra)
 
 Identifica una familia de conjuntos positivamente invariantes
 
@@ -159,6 +157,3 @@ Identifica una familia de conjuntos positivamente invariantes
 3. Johansson,     R. (2018). Numerical Python: Scientific Computing and Data Science     Applications with Numpy, SciPy and Matplotlib. Germany: Apress.
 4. Kelley, W. G., Peterson, A. C. (2010). The Theory of Differential Equations: Classical and Qualitative. United States: Springer New York.
 5. Stewart, J. (2016). Calculus: Early Transcendentals. United States: Cengage Learning.
-
-
-
