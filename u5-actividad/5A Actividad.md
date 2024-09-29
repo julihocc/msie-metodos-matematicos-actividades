@@ -12,19 +12,14 @@ Aplicar y analizar diferentes conceptos de la teoría de grafos para resolver pr
 
 ## Instrucciones
 
-- Consulta [Diestel, 2017], [Farrelly & Mutombo, 2024],[Golumbic, 2004], [Gross & Yellen, 2018], y [Valiente, 2021].
-- Redacta tus respuestas en formato Markdown.
-- Utiliza Python para resolver los problemas. 
-  - Puedes utilizar la librería `network-x` 
-  -  Justifica la elección de tu modelo
-  - Crea una representación visual de la gráfica
-  - Comenta y documenta tu código
-  - Explica los resultados obtenidos
-
-- Si utilizas Python, utiliza la sintaxis de Markdown para Python.
-- En este caso, también adjunta el código en archivos `.py`.
-- Si la respuesta carece de justificación, no se considerará correcta.
-- Exporta y entrega tu trabajo en formato PDF.
+1. **Consulta** en la sección de aprende el material  Modern Graph Theory Algorithms with Python: Harness the Power of Graph Algorithms and Real-world Network Applications Using Python, Cap. 1 y 2
+2. **Recopila** y **analiza** tu información
+3. **Descarga** el archivo[ 5A Actividad](https://github.com/julihocc/msie-metodos-matematicos-actividades/tree/main/u5-actividad) y  **redacta** tus respuestas en formato Markdown
+4. **Documenta** cada paso de tu proceso de resolución, incluyendo las ecuaciones utilizadas, los cálculos realizados y las soluciones obtenidas
+5. **Utiliza** Python o SageMath para realizar los cálculos necesarios. 
+6. **Redacta** tu trabajo en una libreta Jupyter.
+7. **Exporta y entrega** tu trabajo en formato PDF.
+8. **Considera** los [criterios de evaluación](https://github.com/julihocc/msie-metodos-matematicos-actividades/tree/main/u5-actividad)
 
 ## Problemas
 
