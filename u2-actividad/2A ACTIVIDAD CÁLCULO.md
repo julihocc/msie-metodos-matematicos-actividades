@@ -134,8 +134,10 @@ V(x,y) := \alpha x^2 + \beta y^2
 ```
 defina una función de Liapunov para el sistema
 ```math
+\begin{cases}
 x' = -x-5y \\
 y' = 3x-y^3
+\end{cases}
 ```
 
 ## Problemas adicionales
@@ -146,8 +148,10 @@ y' = 3x-y^3
 
 Encuentra una función de Liapunov para el sistema 
 ```math
+\begin{cases}
 x'=-x-y^2\\
-y'=-\dfrac{1}{2}y+2xy
+y'=-\dfrac{1}{2}y+2xy 
+\end{cases}
 ```
 
 #### Inciso 4.2 (1 punto extra)
