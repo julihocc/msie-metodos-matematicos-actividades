@@ -73,25 +73,11 @@ Un examen de las declaraciones de impuestos auditadas de un año al siguiente mu
 
 Para aquellos que a veces evaden impuestos, el 6% pasa a "nunca", el 90% permanece igual y el 4% pasa a "siempre". En cuanto a los evasores “siempre”, los porcentajes respectivos son 0%, 10% y 90%.
 
-### Inciso A (2 puntos)
-
-Expresa el problema en términos de una cadena de Markov, justificando detalladamente la elección de tu modelo. 
-
-### Inciso B (2 puntos)
-
-Calcula la distribución estacionaria utilizando eigenvectores. 
-
-### Inciso C (2 puntos)
-
-Calcula la distribución estacionaria, de forma numérica, iterando la matriz de transición.
-
-### Inciso D (2 puntos)
-
-Verifica que ambos resultados coincidan y explica este resultado en términos de nuestro problema de impuestos.
-
-### Inciso E (2 puntos)
-
- Las estadísticas muestran que un contribuyente en la categoría "a veces" evade impuestos aproximadamente $\$5000$ por declaración y en la categoría "siempre" sobre alrededor de $\$12,000. $Suponiendo que la población de contribuyentes es de 70 millones y que la tasa de impuesto sobre la renta promedio es del 12%, determinar la reducción anual de los impuestos recaudados por evasión.
+1. Expresa el problema en términos de una cadena de Markov, justificando detalladamente la elección de tu modelo. 
+2. Calcula la distribución estacionaria utilizando eigenvectores. 
+3. Calcula la distribución estacionaria, de forma numérica, iterando la matriz de transición.
+4. Verifica que ambos resultados coincidan y explica este resultado en términos de nuestro problema de impuestos.
+5. Las estadísticas muestran que un contribuyente en la categoría "a veces" evade impuestos aproximadamente $\$5000$ por declaración y en la categoría "siempre" sobre alrededor de $\$12,000. $Suponiendo que la población de contribuyentes es de 70 millones y que la tasa de impuesto sobre la renta promedio es del 12%, determinar la reducción anual de los impuestos recaudados por evasión.
 
 ## Bibliografía
 
