@@ -41,8 +41,10 @@ $$
 #### Inciso 1.2 (1.5 puntos)
 
 $$
+\begin{cases}
 x'=x+y\\
 y'=-x+y
+\end{cases}
 $$
 
 
@@ -54,7 +56,7 @@ $$
 
 #### Inciso 2.1 (2.5 puntos)
 
-$$
+```math
 \begin{bmatrix}
 x' \\
 y'
@@ -68,7 +70,7 @@ y'
 x \\
 y
 \end{bmatrix}
-$$
+```
 
 #### Inciso 2.2 (2.5 puntos)
 
