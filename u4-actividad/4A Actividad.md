@@ -42,27 +42,25 @@ $$.
 7. Calcula el error absoluto relativo de $z_{100}$ respecto a la solución exacta.
 8. ¿Cuál de los dos métodos es mejor?
 
-### Problema 2
+### Problema 2 (7 puntos)
 
 Considera el sistema
+
 $$
-F' & = (2-S)F, & F(0) & = F_0\\
-S'& = (F-1)S, & S(0) & = S_0
+\begin{cases}
+F'  = (2-S)F, &  F(0)  = F_0 \\
+S' = (F-1)S, & S(0)  = S_0
+\end{cases}
 $$
 
-### Inciso 1. (2 puntos)
-Determina un esquema numérico explícito para aproximar la solución.
+1. Determina los puntos críticos del sistema.
+2. Traza una gráfica del campo vectorial del sistema, en una región adecuada que incluya los puntos críticos.
+3. Analiza la estabilidad de los puntos críticos.
+4. Determina un esquema numérico explícito para aproximar la solución.
+5. Utilizando el esquema numérico del inciso 1, encuentra una aproximación numérica a la solución si $$F_0 = 1.9, S_0=0.1,\Delta t = 0.001.$$
+6. En la gráfica del campo vectorial, traza la solución aproximada obtenida en el inciso anterior.
+7. Analiza el comportamiento de la solución aproximada obtenida en el inciso anterior.
 
-### Inciso 2. (2 puntos)
-Encuentra una aproximación numérica a la solución en $t=1$ si $F_0 = 1.9 $,$ S_0=0.1$ , $\Delta t = 0.001.$
-
-### Inciso 3 (2 puntos)
-
-Encuentra una aproximación numérica a la solución en $t=1$ si $F_0 = 1$,$ S_0=2$ , $\Delta t = 0.001.$
-
-### Inciso 4 (1 puntos)
-
-A partir del sistema de ecuaciones y el correspondiente esquema numérico, explica los resultados del inciso anterior.
 
 ## Bibliografía
 
