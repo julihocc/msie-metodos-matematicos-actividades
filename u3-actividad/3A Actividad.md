@@ -65,7 +65,7 @@ A continuación, diseñarás un experimento numérico que verifique el resultado
 3.   Calcula la probabilidad de ganar el premio sin cambiar de puerta
 4.   Calcula la probabilidad de ganar el premio cambiando de puerta
 
-### Problema 2
+### Problema 2 (10 puntos)
 
 Hay tres categorías de contribuyentes de impuestos sobre la renta en los Estados Unidos: los que nunca evaden impuestos, los que a veces lo hacen y los que siempre lo hacen.
 
