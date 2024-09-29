@@ -32,8 +32,10 @@ Analizar sistemas dinámicos lineales de forma cualitativa y cuantitativa
 #### Inciso 1.1 (1.5 puntos)
 
 $$
+\begin{cases}
 x'= e^{y}-2x \\
 y'= 2y-2x
+\end{cases}
 $$
 
 #### Inciso 1.2 (1.5 puntos)
