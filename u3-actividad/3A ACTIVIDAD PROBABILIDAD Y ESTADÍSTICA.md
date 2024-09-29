@@ -10,22 +10,16 @@
 
 Analizar sistemas dinámicos aleatorios de forma cualitativa y cuantitativa
 
-## Bibliografía
-
-- Hoel, P. G., Port, S. C., Stone, C. J. (1971). Introduction to Probability Theory. Taiwan: Houghton Mifflin.
-- Hoel, P. G. (1954). Introduction to mathematical statistics. United Kingdom: Wiley.
-- Hoel, P. G., Port, S. C., & Stone, C. J. (1986). Introduction to Stochastic Processes. Waveland Press.
-- Taha, H. A. (2018). Operations Research: An Introduction, Global Edition. United Kingdom: Pearson Education.
-
 ## Instrucciones 
 
-- Consulta [Taha], capítulos 14 y 17
-- Redacta tus respuestas en formato Markdown.
-- Puedes utilizar Python para resolver los problemas. 
-- Si utilizas Python, utiliza la sintaxis de Markdown para Python.
-- En este caso, también adjunta el código en archivos `.py`. 
-- Si la respuesta carece de justificación, no se considerará correcta.
-- Exporta y entrega tu trabajo en formato PDF.
+1. **Consulta** [Taha], capítulos 14 y 17
+2. **Recopila** y **analiza** tu información
+3. **Descarga** el archivo[ 3A Actividad](https://github.com/julihocc/msie-metodos-matematicos-actividades/tree/main/u3-actividad) y  **redacta** tus respuestas en formato Markdown
+4. **Documenta** cada paso de tu proceso de resolución, incluyendo las ecuaciones utilizadas, los cálculos realizados y las soluciones obtenidas
+5. **Utiliza** Python o SageMath para realizar los cálculos necesarios. 
+6. **Redacta** tu trabajo en una libreta Jupyter.
+7. **Exporta y entrega** tu trabajo en formato PDF.
+8. **Considera** los [criterios de evaluación](https://github.com/julihocc/msie-metodos-matematicos-actividades/tree/main/u3-actividad)
 
 ## Problemas
 
@@ -99,7 +93,9 @@ Verifica que ambos resultados coincidan y explica este resultado en términos de
 
  Las estadísticas muestran que un contribuyente en la categoría "a veces" evade impuestos aproximadamente $\$5000$ por declaración y en la categoría "siempre" sobre alrededor de $\$12,000. $Suponiendo que la población de contribuyentes es de 70 millones y que la tasa de impuesto sobre la renta promedio es del 12%, determinar la reducción anual de los impuestos recaudados por evasión.
 
+## Bibliografía
 
-
-
-
+- Hoel, P. G., Port, S. C., Stone, C. J. (1971). Introduction to Probability Theory. Taiwan: Houghton Mifflin.
+- Hoel, P. G. (1954). Introduction to mathematical statistics. United Kingdom: Wiley.
+- Hoel, P. G., Port, S. C., & Stone, C. J. (1986). Introduction to Stochastic Processes. Waveland Press.
+- Taha, H. A. (2018). Operations Research: An Introduction, Global Edition. United Kingdom: Pearson Education.
