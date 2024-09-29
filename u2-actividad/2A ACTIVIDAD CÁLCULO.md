@@ -74,7 +74,7 @@ y
 
 #### Inciso 2.2 (2.5 puntos)
 
-$$
+```math
 \begin{bmatrix}
 x' \\
 y'
@@ -88,11 +88,11 @@ y'
 x \\
 y
 \end{bmatrix}
-$$
+```
 
 #### Inciso 2.3 (2.5 puntos)
 
-$$
+```math
 \begin{bmatrix}
 x' \\
 y'
@@ -106,11 +106,11 @@ y'
 x \\
 y
 \end{bmatrix}
-$$
+```
 
 #### Inciso 2.4 (2.5 puntos)
 
-$$
+```math
 \begin{bmatrix}
 x' \\
 y'
@@ -124,19 +124,19 @@ y'
 x \\
 y
 \end{bmatrix}
-$$
+```
 
 ### Problema 3 (2 puntos)
 
 Encuentra las constantes $\alpha$ y $\beta$ de manera que 
-$$
+```math
 V(x,y) := \alpha x^2 + \beta y^2 
-$$
+```
 defina una función de Liapunov para el sistema
-$$
+```math
 x' = -x-5y \\
 y' = 3x-y^3
-$$
+```
 
 ## Problemas adicionales
 
@@ -145,10 +145,10 @@ $$
 #### Inciso 4.1 (2 puntos extras)
 
 Encuentra una función de Liapunov para el sistema 
-$$
+```math
 x'=-x-y^2\\
 y'=-\dfrac{1}{2}y+2xy
-$$
+```
 
 #### Inciso 4.2 (1 punto extra)
 
