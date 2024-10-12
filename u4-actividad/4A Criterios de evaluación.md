@@ -4,6 +4,7 @@
 
 | Criterio     | Puntos |
 | ------------ | ------ |
-| Problema 1   | 8      |
-| Problema 2   | 7      |
+| Problema 1   | 5      |
+| Problema 2   | 5      |
+| Problema 3   | 5      |
 | **Total**    | **15** |
