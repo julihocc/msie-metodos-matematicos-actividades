@@ -2,10 +2,11 @@
 
 **Criterios de evaluación:**
 
-| Criterio     | Puntos |
-| ------------ | ------ |
-| Problema 1.1 | 3      |
-| Problema 1.2 | 3      |
-| Problema 2   | 4.5    |
-| Problema 3   | 4.5    |
-| **Total**    | **15** |
+| Criterio    | Puntos |
+| ----------- | ------ |
+| Ejercicio 1 | 3      |
+| Ejercicio 2 | 3      |
+| Ejercicio 3 | 3      |
+| Ejercicio 4 | 3      |
+| Ejercicio 5 | 3      |
+| **Total**   | **15** |
