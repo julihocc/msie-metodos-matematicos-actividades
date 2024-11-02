@@ -23,10 +23,10 @@ Aplicar y analizar diferentes métodos numéricos para resolver sistemas de ecua
 
 ### 1. Solución de Ecuaciones No Lineales (Bisección y Newton-Raphson)
 
-Considera la función $f(x) = x^3 - 6x^2 + 11x - 6$. Usa dos métodos diferentes para encontrar una raíz en el intervalo $[2, 4]$: el método de la bisección y el método de Newton-Raphson.
+Considera la función $f(x) = x^3 - 6x^2 + 11x - 6$. Usa dos métodos diferentes para encontrar una raíz en el intervalo $[2.5, 4]$: el método de la bisección y el método de Newton-Raphson.
 
-1. Implementa el **método de bisección** en SageMath para encontrar la raíz de $f(x)$ en el intervalo $[2, 4]$ con una precisión de $10^{-6}$.
-2. Luego, utiliza el **método de Newton-Raphson** para encontrar la misma raíz, empezando desde el punto inicial $x_0 = 3$.
+1. Implementa el **método de bisección** en SageMath o Python para encontrar la raíz de $f(x)$ en el intervalo $[2.5, 4]$ con una precisión de $10^{-6}$.
+2. Luego, utiliza el **método de Newton-Raphson** para encontrar la misma raíz, empezando desde el punto inicial $x_0 = 3.5$.
 3. Compara los resultados obtenidos con ambos métodos y discute la velocidad de convergencia de cada uno.
 
 ### 2. Métodos de Integración Numérica (Trapecio y Simpson)
