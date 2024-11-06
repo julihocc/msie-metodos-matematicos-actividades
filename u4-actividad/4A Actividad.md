@@ -17,9 +17,10 @@ Aplicar y analizar diferentes métodos numéricos para resolver sistemas de ecua
 3. **Descarga** el archivo [4A Métodos numéricos](https://github.com/julihocc/msie-metodos-matematicos-actividades/tree/main/u4-actividad)
 4. **Documenta** cada paso de tu proceso de resolución, incluyendo las ecuaciones utilizadas, los cálculos realizados y las soluciones obtenidas
 5. **Utiliza** Python o SageMath para realizar los cálculos necesarios.
-6. **Redacta** tu trabajo en una libreta Jupyter.
-7. **Exporta y entrega** tu trabajo en formato PDF.
-8. **Considera** los [criterios de evaluación](https://github.com/julihocc/msie-metodos-matematicos-actividades/tree/main/u4-actividad)
+6. **Utiliza** Scipy para verificar que tus respuestas con correctas. 
+7. **Redacta** tu trabajo en una libreta Jupyter.
+8. **Exporta y entrega** tu trabajo en formato PDF.
+9. **Considera** los [criterios de evaluación](https://github.com/julihocc/msie-metodos-matematicos-actividades/tree/main/u4-actividad)
 
 ### 1. Solución de Ecuaciones No Lineales (Bisección y Newton-Raphson)
 
@@ -36,7 +37,6 @@ Considera la función $f(x) = e^{-x^2}$ en el intervalo $[0, 1]$.
 1. Implementa el **método del trapecio**  para aproximar la integral de $f(x)$ en el intervalo $[0, 1]$ con $n = 100$ subintervalos.
 2. Repite el ejercicio anterior utilizando el **método de Simpson**.
 3. Compara los resultados obtenidos con ambos métodos y discute la precisión de cada uno.
-
 
 ### 3. Solución de Ecuaciones Diferenciales Ordinarias (Euler y RK4)
 
@@ -55,7 +55,7 @@ con la condición inicial $y(0) = 0.5$.
 ## Bibliografía
 
 1. Chasnov, Jeffrey R. (2020). [Numerical Methods for Engineers.](https://www.math.hkust.edu.hk/~machas/numerical-methods-for-engineers.pdf)
-1. Fuhrer, C., Solem, J. E., Verdier, O. (2021). Scientific Computing with Python - Second Edition: High-Performance Scientific Computing with NumPy, SciPy, and Pandas. India: Packt Publishing.
-1. Johansson, R. (2018). Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy and Matplotlib. Germany: Apress.
-1. Linge, S., Langtangen, H. P. (2016). Programming for Computations - Python: A Gentle Introduction to Numerical Simulations with Python. Germany: Springer International Publishing.
-1. Tveito, A., Langtangen, H. P., Nielsen, B. F., Cai, X. (2010). Elements of Scientific Computing. Germany: Springer.
+2. Fuhrer, C., Solem, J. E., Verdier, O. (2021). Scientific Computing with Python - Second Edition: High-Performance Scientific Computing with NumPy, SciPy, and Pandas. India: Packt Publishing.
+3. Johansson, R. (2018). Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy and Matplotlib. Germany: Apress.
+4. Linge, S., Langtangen, H. P. (2016). Programming for Computations - Python: A Gentle Introduction to Numerical Simulations with Python. Germany: Springer International Publishing.
+5. Tveito, A., Langtangen, H. P., Nielsen, B. F., Cai, X. (2010). Elements of Scientific Computing. Germany: Springer.
